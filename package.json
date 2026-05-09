@@ -1,0 +1,23 @@
+{
+  "name": "@habit-app/shared-core",
+  "version": "1.0.0",
+  "description": "This is shared app for both habit-app web and habot-tracker mobile app",
+  "homepage": "https://github.com/priyasingh123/habit-app-shared-core#readme",
+  "bugs": {
+    "url": "https://github.com/priyasingh123/habit-app-shared-core/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyasingh123/habit-app-shared-core.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
