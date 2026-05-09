@@ -15,10 +15,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^25.6.2",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.9",
     "typescript": "^6.0.3"
   }
 }

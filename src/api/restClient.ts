@@ -1,13 +1,9 @@
 const baseUrl = process.env.EXPO_PUBLIC_API_URL ?? "http://localhost:8081";
 
-interface restApiRequestParams {
-  endpoint: string;
-  options: RequestInit;
-}
-const restApiRequest = async ({
-  endpoint,
-  options = {},
-}: restApiRequestParams) => {
+export const restApiRequest = async (
+  endpoint: string,
+  options: RequestInit = {},
+) => {
   const url = `${baseUrl}${endpoint}`;
 
   try {
