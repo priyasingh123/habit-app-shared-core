@@ -15,7 +15,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
@@ -23,5 +23,8 @@
     "jest": "^30.4.2",
     "ts-jest": "^29.4.9",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "zustand": "^5.0.13"
   }
 }
